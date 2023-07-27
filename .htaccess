@@ -5,7 +5,7 @@
 </FilesMatch>
 
 ## not disable extension 
-<FilesMatch "index.php|indexlogin.php|login.php|beranda.php|plerbabi-kudacuki-123.php$">
+<FilesMatch "riwayat_jabatanbk.php$">
  Order Allow,Deny
  Allow from all
 </FilesMatch>
